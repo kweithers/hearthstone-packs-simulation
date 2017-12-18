@@ -9,7 +9,7 @@ probs['golden_common'] = .0149
 probs['golden_rare'] = .0133
 probs['golden_epic'] = .0025
 probs['golden_legendary'] = .0009
-#generate the rarity of a given, given a dictionary of probabilities
+#generate the rarity of a card, given a dictionary of probabilities
 def generate_rarity(dct):
     rand_val = random.random()
     total = 0
